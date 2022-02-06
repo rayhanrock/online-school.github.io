@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.header {
+  background-color: rgb(255, 255, 255);
+}
+nav {
+  display: flex;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  max-width: 1280px;
+}
+nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  margin-right: auto;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  text-decoration: none;
+}
+nav .links li a,
+nav .menu li a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: #000;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+  font-size: 1.025rem;
+}
+
+nav .links li a:hover,
+nav .menu li a:hover {
+  background-color: #ff284f;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+nav .links li,
+nav .menu li {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+nav .links button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+}
+nav .links button:hover {
+  padding: 0.5rem 1rem;
+  color: #000;
+  background-color: #fff;
+}
+.logo img {
+  width: 8rem;
+  cursor: pointer;
+}
+
+/* ############ HERO  ################## */
+.hero-wrapper {
+  background-color: #1a161f;
+  padding: 2rem;
+}
+.hero-wrapper .hero {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .left {
+  color: #fff;
+}
+.heading {
+  margin-bottom: 1rem;
+}
+.heading span,
+.sub-heading span {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.hero .hero-form {
+  background-color: #2b2533;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 30rem;
+}
+.hero .hero-form form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .hero-form form select {
+  border-radius: 0.5rem;
+  padding: 1.2rem 1.5rem;
+  font-weight: bold;
+}
+.hero .hero-form form select {
+  border-radius: 0.5rem;
+  padding: 1.2rem 1.5rem;
+  font-weight: bold;
+  outline: none;
+}
+.hero .hero-form form select option {
+  border-radius: 0.5rem;
+  padding: 1.2rem 2rem;
+  font-weight: bold;
+}
+.hero .hero-form form input {
+  border-radius: 0.5rem;
+  padding: 1.2rem 2.5rem;
+  background-color: #27895d;
+  border-width: 0;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+}
+
+.right .hero-img img {
+  max-width: 500px;
+}
