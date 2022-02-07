@@ -8,6 +8,10 @@ h1 {
   font-size: 3rem;
   font-weight: 800;
 }
+h3 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 1.25rem;
+}
 .header {
   background-color: rgb(255, 255, 255);
 }
@@ -69,8 +73,9 @@ nav .links button:hover {
   background-color: #fff;
 }
 .logo img {
-  width: 8rem;
+  width: 5rem;
   cursor: pointer;
+  margin-right: 2rem;
 }
 
 /* ############ HERO  ################## */
@@ -140,4 +145,62 @@ nav .links button:hover {
 
 .right .hero-img img {
   max-width: 500px;
+}
+
+/* ########  FOOTER ####### */
+
+.footer {
+  background-color: #fafafa;
+}
+.footer .menu {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0rem;
+}
+.footer .menu .download-app {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer .menu .links {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 3;
+}
+.footer .menu .download-app img {
+  max-width: 10rem;
+}
+.footer .menu .download-app span a {
+  color: #15803d;
+}
+.footer .menu .download-app span a:hover {
+  text-decoration: underline;
+}
+
+.footer .menu .other-links ul {
+  list-style: none;
+}
+.footer .menu .other-links ul li {
+  margin-bottom: 0.5rem;
+}
+.footer .menu .other-links ul li a {
+  font-size: 1.25rem;
+  color: #000;
+}
+.footer .copy-right {
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+}
+hr {
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+.footer .copy-right span {
+  color: #6c6c6c;
+  padding-bottom: 2rem;
 }
