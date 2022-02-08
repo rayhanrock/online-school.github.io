@@ -8,6 +8,10 @@ h1 {
   font-size: 3rem;
   font-weight: 800;
 }
+h2 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 1.5rem;
+}
 h3 {
   font-family: "Hind Siliguri", sans-serif;
   font-size: 1.25rem;
@@ -94,11 +98,11 @@ nav .links button:hover {
 .hero .left {
   color: #fff;
 }
-.heading {
+.hero .left .heading {
   margin-bottom: 1rem;
 }
-.heading span,
-.sub-heading span {
+.hero .left .heading span,
+.hero .left .sub-heading span {
   display: block;
   margin-bottom: 0.25rem;
 }
@@ -277,6 +281,8 @@ hr {
   color: rgb(82 82 82);
 }
 
+/* ####  second section #### */
+
 .content .second-section {
   background-color: #f7f8fa;
 }
@@ -284,4 +290,65 @@ hr {
   max-width: 1280px;
   text-align: center;
   margin: 0 auto;
+}
+
+.second-section .cards {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.second-section .cards .card {
+  flex-basis: 30%;
+  background-color: #fff;
+  border-radius: 1rem;
+  color: #000;
+  transition: 0.2s ease-in-out;
+}
+.second-section .cards .card:hover {
+  transform: translateY(-15px);
+}
+.second-section .cards .card .card-heading {
+  background-image: url(../icons/academic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 11.5rem;
+
+  text-align: left;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.second-section .cards .card .card-heading h2 {
+  max-width: 50%;
+  padding: 2.5rem 2rem;
+  color: #fff;
+}
+.second-section .cards .card .title {
+  text-align: left;
+  padding: 1rem 2rem;
+}
+.second-section .cards .card .list {
+  text-align: left;
+  padding: 0.5rem 2rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.second-section .cards .card .list li {
+  display: flex;
+  align-items: center;
+  flex-basis: 48%;
+}
+.second-section .cards .card .list li span {
+  padding: 0.5rem;
+}
+.second-section .cards .card .list li img {
+  width: 24px;
+  height: 24px;
+}
+.second-section .cards .card .card-footer {
+  padding: 1rem;
+  border-top: 3px solid #ececec;
+  color: #27895d;
 }
