@@ -285,6 +285,7 @@ hr {
 
 .content .second-section {
   background-color: #f7f8fa;
+  padding-bottom: 5rem;
 }
 .content .second-section .section-wrapper {
   max-width: 1280px;
@@ -351,4 +352,71 @@ hr {
   padding: 1rem;
   border-top: 3px solid #ececec;
   color: #27895d;
+}
+
+/* #######  THRID SECTION ########### */
+
+.content .third-section {
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.content .third-section .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 1.5rem;
+}
+.content .third-section .cards .card {
+  display: flex;
+  flex-basis: 48%;
+  background-color: #f7f8fa;
+  align-items: center;
+  border-radius: 0.5rem;
+  height: 8rem;
+}
+.content .third-section .cards .card .thumbs {
+  flex-basis: 30%;
+}
+.content .third-section .cards .card .thumbs img {
+  width: 16rem;
+  height: 8rem;
+  display: block;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.content .third-section .cards .card .content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+.content .third-section .cards .card .content .sub-title {
+  display: flex;
+  align-items: center;
+}
+.content .third-section .cards .card .content .sub-title span {
+  padding: 0.5rem;
+  color: #6c6c6c;
+}
+.content .third-section .cards .card .content .sub-title img {
+  width: 24px;
+  height: 24px;
+}
+.content .third-section .button {
+  padding: 5rem;
+}
+.content .third-section .button a {
+  width: 5rem;
+  border: 0;
+  color: #fff;
+  background-color: #27895d;
+  padding: 1rem 3.5rem;
+  border-radius: 0.5rem;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
